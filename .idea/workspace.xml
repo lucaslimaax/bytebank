@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb6061c9-167e-4884-9f16-1ac667c8b2c7" name="Changes" comment="modulo 2 - condicoes">
+    <list default="true" id="bb6061c9-167e-4884-9f16-1ac667c8b2c7" name="Changes" comment="modulo 2 - loops">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657589225983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modulo 2 - loops">
+      <created>1657590424112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657590424112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +108,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="modulo 1" />
     <MESSAGE value="modulo 2 - condicoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="modulo 2 - condicoes" />
+    <MESSAGE value="modulo 2 - loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="modulo 2 - loops" />
   </component>
 </project>
