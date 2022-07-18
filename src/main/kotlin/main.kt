@@ -1,23 +1,39 @@
 fun main() {
     println("Bem vindo ao Bytebank!!")
-    val contaAlex = Conta()
-    contaAlex.titular = "Alex"
-    contaAlex.numero = 1000
-    contaAlex.saldo = 100.0
+//    val contaAlex = Conta()
+//    contaAlex.titular = "Alex"
+//    contaAlex.numero = 1000
+//    contaAlex.saldo = 100.0
+//
+//
+//    val contaFran = Conta()
+//    contaFran.titular = "Fran"
+//    contaFran.numero = 2000
+//    contaFran.saldo = 500.0
+//
+//    println(contaFran.titular)
+//    println(contaFran.numero)
+//    println(contaFran.saldo)
+//
+//    println(contaAlex.titular)
+//    println(contaAlex.numero)
+//    println(contaAlex.saldo)
 
+    val numeroX = 10
+    var numeroY = numeroX
+    numeroY++
 
-    val contaFran = Conta()
-    contaFran.titular = "Fran"
-    contaFran.numero = 2000
-    contaFran.saldo = 500.0
+    println("Numero X: $numeroX")
+    println("Numero Y: $numeroY")
 
-    println(contaFran.titular)
-    println(contaFran.numero)
-    println(contaFran.saldo)
+    val contaJoao = Conta()
+    contaJoao.titular = "João"
+    var contaMaria = contaJoao //vai referenciar o mesmo objeto Conta usado para joão // cuidado
+    contaMaria.titular = "Maria"
 
-    println(contaAlex.titular)
-    println(contaAlex.numero)
-    println(contaAlex.saldo)
+    println("Titular conta joao: ${contaJoao.titular}")
+    println("Titular conta Maria: ${contaMaria.titular}")
+
 }
 
 class Conta {
