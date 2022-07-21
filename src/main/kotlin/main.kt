@@ -1,24 +1,43 @@
 fun main() {
     println("Bem vindo ao Bytebank!!")
-//    val contaAlex = Conta()
-//    contaAlex.titular = "Alex"
-//    contaAlex.numero = 1000
-//    contaAlex.saldo = 100.0
-//
-//
-//    val contaFran = Conta()
-//    contaFran.titular = "Fran"
-//    contaFran.numero = 2000
-//    contaFran.saldo = 500.0
-//
-//    println(contaFran.titular)
-//    println(contaFran.numero)
-//    println(contaFran.saldo)
-//
-//    println(contaAlex.titular)
-//    println(contaAlex.numero)
-//    println(contaAlex.saldo)
+    val contaAlex = Conta()
+    contaAlex.titular = "Alex"
+    contaAlex.numero = 1000
+    contaAlex.saldo = 100.0
 
+
+    val contaFran = Conta()
+    contaFran.titular = "Fran"
+    contaFran.numero = 2000
+    contaFran.saldo = 500.0
+
+    println(contaFran.titular)
+    println(contaFran.numero)
+    println(contaFran.saldo)
+
+    println(contaAlex.titular)
+    println(contaAlex.numero)
+    println(contaAlex.saldo)
+
+    println("Depositando na conta do Alex")
+    deposita(contaAlex, 50.0)
+    println(contaAlex.saldo)
+    println("Depositando na conta da Fran")
+    deposita(contaFran, 40.0)
+    println(contaFran.saldo)
+}
+
+fun deposita(conta: Conta, valor: Double){
+    conta.saldo += valor
+}
+
+class Conta {
+    var titular = ""
+    var numero = 0
+    var saldo = 0.0
+}
+
+fun testaCopiasEReferencias(){
     val numeroX = 10
     var numeroY = numeroX
     numeroY++
@@ -33,13 +52,6 @@ fun main() {
 
     println("Titular conta joao: ${contaJoao.titular}")
     println("Titular conta Maria: ${contaMaria.titular}")
-
-}
-
-class Conta {
-    var titular = ""
-    var numero = 0
-    var saldo = 0.0
 }
 
 
