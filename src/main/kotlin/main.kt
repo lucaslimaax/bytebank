@@ -9,7 +9,7 @@ fun main() {
     val contaFran = Conta()
     contaFran.titular = "Fran"
     contaFran.numero = 2000
-    contaFran.saldo = 500.0
+    contaFran.saldo = -10.0
 
     println(contaFran.titular)
     println(contaFran.numero)
@@ -23,15 +23,15 @@ fun main() {
     contaAlex.deposita(50.0)
     println(contaAlex.saldo)
     println("Depositando na conta da Fran")
-    contaFran.deposita(40.0)
+    contaFran.deposita(0.0)
     println(contaFran.saldo)
 
     println("sancando da conta do alex")
     contaAlex.saca(40.0)
     println(contaAlex.saldo)
 
-    println("sancando da conta da Fran")
-    contaAlex.saca(3000.0) //saque em excesso
+    println("saque em excesso da conta da Fran")
+    contaAlex.saca(-10.0) //saque em excesso
     println(contaFran.saldo)
 }
 
@@ -49,6 +49,14 @@ class Conta {
         if(this.saldo >= valor){
             saldo -= valor
         }
+    }
+
+    fun transfere(valor: Double, destino: Conta){
+        if(saldo >= valor){
+            saldo -= valor
+            destino.saldo += valor
+        }
+
     }
 
 }
