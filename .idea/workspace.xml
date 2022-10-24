@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb6061c9-167e-4884-9f16-1ac667c8b2c7" name="Changes" comment="modulo 4 - implementando metodos">
+    <list default="true" id="bb6061c9-167e-4884-9f16-1ac667c8b2c7" name="Changes" comment="metodo transfere">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660185406160</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="metodo transfere">
+      <created>1660941630013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660941630013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +132,7 @@
     <MESSAGE value="modulo 2 - loops" />
     <MESSAGE value="modulo 3 - POO" />
     <MESSAGE value="modulo 4 - implementando metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="modulo 4 - implementando metodos" />
+    <MESSAGE value="metodo transfere" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo transfere" />
   </component>
 </project>
