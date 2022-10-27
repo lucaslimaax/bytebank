@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb6061c9-167e-4884-9f16-1ac667c8b2c7" name="Changes" comment="proprietes">
+    <list default="true" id="bb6061c9-167e-4884-9f16-1ac667c8b2c7" name="Changes" comment="constructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666574355768</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="constructor">
+      <created>1666575385102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666575385102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +148,7 @@
     <MESSAGE value="modulo 4 - implementando metodos" />
     <MESSAGE value="metodo transfere" />
     <MESSAGE value="proprietes" />
-    <option name="LAST_COMMIT_MESSAGE" value="proprietes" />
+    <MESSAGE value="constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="constructor" />
   </component>
 </project>

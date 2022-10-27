@@ -5,7 +5,7 @@ fun main() {
     contaAlex.deposita(500.00)
 
 
-    val contaFran = Conta("Fran", 2000)
+    val contaFran = Conta(numero=2000, titular="Fran") //utilizando labels
     contaFran.deposita(200.0)
 
     println(contaFran.titular)
@@ -37,7 +37,8 @@ fun main() {
 }
 
 
-class Conta(var titular: String, var numero: Int) {
+class Conta(val titular: String,
+            var numero: Int) {  //val pq é um valor obrigatorio e que não pode ser alterado
 //    var titular = titular
 //    var numero = numero
     var saldo = 0.0
@@ -89,13 +90,13 @@ fun testaCopiasEReferencias(){
     println("Numero X: $numeroX")
     println("Numero Y: $numeroY")
 
-    val contaJoao = Conta("joao",3500)
-    contaJoao.titular = "João"
-    var contaMaria = contaJoao //vai referenciar o mesmo objeto Conta usado para joão // cuidado
-    contaMaria.titular = "Maria"
-
-    println("Titular conta joao: ${contaJoao.titular}")
-    println("Titular conta Maria: ${contaMaria.titular}")
+//    val contaJoao = Conta("joao",3500)
+//    contaJoao.titular = "João"
+//    var contaMaria = contaJoao //vai referenciar o mesmo objeto Conta usado para joão // cuidado
+//    contaMaria.titular = "Maria"
+//
+//    println("Titular conta joao: ${contaJoao.titular}")
+//    println("Titular conta Maria: ${contaMaria.titular}")
 }
 
 
